@@ -2,6 +2,11 @@
 
 Ashwin Shashikant Niwalkar
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24136468.svg)](https://doi.org/10.5281/zenodo.24136468)
+
+Cite as: Ashwin Shashikant Niwalkar, *Numbers with exactly k ones in binary,
+built from their differences*, v1.0 (2026), https://doi.org/10.5281/zenodo.24136468
+
 For any k, the numbers whose binary form contains exactly k ones can be listed
 in increasing order with one rule: start at 2^k - 1 and keep adding a
 difference computed from the current number. The difference formula is the
