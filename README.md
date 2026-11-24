@@ -100,8 +100,12 @@ There were C(20, k) of them in each case: 20, 190, 1140, 4845, 15504 and
 |---|---|---|
 | 2 | 2, 1, 3, 1, 2, 5, 1, 2, 4, 9, ... | [A401546](https://oeis.org/A401546) |
 | 3 | 4, 2, 1, 5, 2, 1, 3, 1, 2, 7, ... | [A228132](https://oeis.org/A228132) |
-| 4 | 8, 4, 2, 1, 9, 4, 2, 1, 5, 2, ... | A401010 (submitted Nov 10 2026, under review) |
+| 4 | 8, 4, 2, 1, 9, 4, 2, 1, 5, 2, ... | not in the OEIS (submitted as A401010, withdrawn Nov 19 2026, recycled Nov 24 2026) |
 | 5 | 16, 8, 4, 2, 1, 17, 8, 4, 2, 1, ... | not in the OEIS (Nov 11 2026) |
+
+The OEIS keeps a difference sequence only where it adds new mathematics. The
+difference rule in section 2 is the same for every k and is published in
+[A057168](https://oeis.org/A057168), so no further k gets its own entry.
 
 The k ones sequence is rebuilt from its differences by starting at 2^k - 1
 and adding them one at a time.
@@ -203,6 +207,8 @@ Contributed here:
 | Nov 4 2026 | My formula and program added to A228132 |
 | Nov 10 2026 | My formula published in A057168 |
 | Nov 10 2026 | Differences of A014312 submitted as A401010 |
+| Nov 19 2026 | A401010 withdrawn: the A057168 formula already covers every k |
+| Nov 24 2026 | A401010 recycled by the OEIS editors |
 
 ## 6. Check it yourself
 
